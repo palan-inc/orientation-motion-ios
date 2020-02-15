@@ -1,0 +1,35 @@
+{
+  "name": "orientation-motion-ios",
+  "version": "1.0.0",
+  "description": "Allow user to use device orientation and device motion on iOS13",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palan-inc/orientation-motion-ios.git"
+  },
+  "keywords": [
+    "Device Orientation",
+    "Device Motion",
+    "WebXR",
+    "WebAR",
+    "WebVR"
+  ],
+  "author": "palan, Inc. <contact@palan.co.jp> (https://github.com/palan-inc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palan-inc/orientation-motion-ios/issues"
+  },
+  "homepage": "https://github.com/palan-inc/orientation-motion-ios#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
